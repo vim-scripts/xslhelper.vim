@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1364
+
+Very basic helper abbreviations for writing xslt stylesheets. Like vivek Venugopalan's dbhelper.vim, uses the format ",<abbrev>", as in:
+,tm ==> <xsl:template match=""></xsl:template>
+,at ==> <xsl:apply-templates/>
+
+It helps me a ton, hope it helps you too. Please send feedback to andrews AT oreilly.com.
+
+Cheers.
