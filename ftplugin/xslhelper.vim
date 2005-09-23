@@ -106,7 +106,7 @@
 imap ,tm <xsl:template match=""><CR></xsl:template><esc>k$hi
 imap ,tn <xsl:template name=""><CR></xsl:template><esc>k$hi
 imap ,te <xsl:template match=""/><esc>$hhi
-imap ,ct <xsl:call-template select=""><CR></xsl:call-template><esc>k^$k
+imap ,ct <xsl:call-template name=""><CR></xsl:call-template><esc>k$hi
 imap ,at <xsl:apply-templates/>
 imap ,as <xsl:apply-templates select=""/><esc>hhi
 imap ,vn <xsl:variable name="" select=""/><esc>bbbla
