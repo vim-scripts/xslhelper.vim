@@ -122,6 +122,6 @@ imap ,an <xsl:attribute name=""><CR></xsl:attribute><esc>k$hi
 imap ,wp <xsl:with-param name="" select=""/><esc>bbbla
 imap ,tt <xsl:text></xsl:text><esc>bbbba
 imap ,cp <xsl:copy><CR></xsl:copy><esc>O
-imap ,co <xsl:copy-of select=""><CR></xsl:copy><esc>k$hi
+imap ,co <xsl:copy-of select=""><CR></xsl:copy-of><esc>k$hi
 imap ,msg <xsl:message><CR></xsl:message><esc>O
 imap ,sty <?xml version="1.0"?><CR><xsl:stylesheet<CR>version="1.0"<CR>xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><CR></xsl:stylesheet><esc>O
